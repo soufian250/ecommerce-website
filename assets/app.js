@@ -6,6 +6,7 @@
  */
 
 
+
 // any CSS you import will output into a single css file (app.css in this case)
 import './styles/css/vendors/bootstrap.css';
 import './styles/css/vendors/slick.css';
@@ -56,6 +57,10 @@ import './js/timer.js'
 // import './js/custom-card/custom-card.js'
 // import './js/dashboard/default.js'
 
+
+
+// any CSS you import will output into a single css file (app.css in this case)
+import './styles/app.css';
 
 
 // start the Stimulus application
