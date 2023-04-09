@@ -6,6 +6,7 @@ ini_set('memory_limit', '3G');
 
 
 use App\Entity\Product;
+use PhpOffice\PhpSpreadsheet\Reader\Exception;
 use PhpOffice\PhpSpreadsheet\Reader\Xlsx;
 use Doctrine\Persistence\ManagerRegistry;
 
@@ -20,7 +21,11 @@ class FactoryPrice
         $this->entityManager = $doctrine->getManager();
     }
 
-    public function readFile() {
+    /**
+     * @throws Exception
+     */
+    public function readFile(): void
+    {
 
         $xlxs = new Xlsx();
         $content = $xlxs->load(__DIR__.'/../../var/data/yassin_factory.xlsx');
@@ -31,7 +36,8 @@ class FactoryPrice
 
 
 
-    public function importProducts(){
+    public function importProducts(): void
+    {
 
         
         if ( count($this->products) > 0 ) {
