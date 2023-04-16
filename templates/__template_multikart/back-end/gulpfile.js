@@ -3,7 +3,7 @@ const sass = require("gulp-sass");
 const autoprefixer = require("gulp-autoprefixer");
 const sourcemaps = require("gulp-sourcemaps");
 const browserSync = require("browser-sync").create();
-const feather = require('feather-icons');
+// const feather = require('feather-icons');
 
 //scss to css
 function style() {

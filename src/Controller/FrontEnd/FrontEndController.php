@@ -65,7 +65,7 @@ class FrontEndController extends AbstractController
         // Get products by collection name
         //$products = $this->entityManager->getRepository(Product::class)->getProductsByCollection('men');
         $products = $this->entityManager->getRepository(Product::class)->findAll();
-        return $this->render('front_end/index/listing.html.twig',[
+        return $this->render('front_end/index/listing2.html.twig',[
             'products'=>$products,
         ]);
 

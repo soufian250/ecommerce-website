@@ -1,5 +1,11 @@
 Compacter les fichiers js & css
+==> npm run watch
+or
 ==> yarn encore dev watch
 
+
+
 Build les fichier de js & css
+==> npm run build
+or
 ==> yarn encore dev build
