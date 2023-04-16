@@ -33,6 +33,19 @@ class FrontEndController extends AbstractController
         $this->request = $request;
     }
 
+    #[Route('/', name: 'app_index')]
+    public function indexApp(): Response
+    {
+
+        // Get products by collection name
+        //$products = $this->entityManager->getRepository(Product::class)->getProductsByCollection('men');
+        $products = $this->entityManager->getRepository(Product::class)->findAll();
+        return $this->render('front_end/index/listing2.html.twig',[
+            'products'=>$products,
+        ]);
+
+    }
+
     #[Route('/home', name: 'app_home')]
     public function index(): Response
     {
