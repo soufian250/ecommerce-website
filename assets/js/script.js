@@ -1897,9 +1897,148 @@
     });
 
 
-    /*=====================
+    /*=========================
      20.Add to wishlist
      ==========================*/
+
+    var wishlistId = 'wishlist'
+    var wishlisthelper = {
+
+        items: [],
+        saveWishlist: function (object) {
+            var stringified = JSON.stringify(object);
+            localStorage.setItem(wishlistId, stringified);
+            return true;
+        },
+        getWishlist: function () {
+            return JSON.parse(localStorage.getItem(wishlistId));
+        },
+        clearWishlist: function () {
+
+            localStorage.removeItem(wishlistId);
+
+        },
+
+        getItems: function () {
+
+            return this.items;
+
+        },
+        setItems: function (items) {
+
+            this.items = items;
+            for (var i = 0; i < this.items.length; i++) {
+                var _item = this.items[i];
+            }
+
+        },
+        clearItems: function () {
+
+            this.items = [];
+            wishlisthelper.clearWishlist();
+
+        },
+        addItem: function (item) {
+
+            console.log(this.containsItem(item.id));
+
+            if (this.containsItem(item.id) === false) {
+
+                this.items.push({
+                    id: item.id,
+                    name: item.name,
+                    price: item.price,
+                    picture: item.picture,
+                });
+
+                wishlisthelper.saveWishlist(this.items);
+
+            } else {
+
+                console.log('Exist!!');
+                wishlisthelper.removeItem(item.id);
+                // let itemtest = storage.getCart();
+                // itemtest.forEach(function myFunction(product, index) {
+                //     if(product.id === item.id){
+                //         let total = product.count * item.price
+                //         $(`.item-count-${ item.id }`).text(product.count);
+                //         $(`.item-price-${ item.id }`).text(item.price);
+                //         $('.subtotal').text(total.toFixed(2));
+                //     }
+                // });
+
+            }
+        },
+        containsItem: function (id) {
+
+            console.log(this.items);
+            console.log(this.items === undefined);
+            if (this.items === undefined) {
+                return false;
+            }
+            console.log('éééééééééééééééé');
+            for (var i = 0; i < this.items.length; i++) {
+
+                var _item = this.items[i];
+                console.log(id , _item.id)
+                if (id == _item.id) {
+                    return true;
+                }
+
+            }
+            return false;
+
+        },
+        updateItem: function (object) {
+
+            for (var i = 0; i < this.items.length; i++) {
+
+                var _item = this.items[i];
+
+                if (object.id === _item.id) {
+
+                    this.items[i] = _item;
+                    wishlisthelper.saveWishlist(this.items);
+
+                }
+
+            }
+
+        },
+        removeItem: function (id) {
+
+            if (this.items === undefined) {
+                return false;
+            }
+            wishlisthelper.removeItemP(id);
+
+        },
+        removeItemP: function (itemId) {
+
+            // Retrieve the object from Local Storage
+            console.log(wishlistId)
+            const storedObj = JSON.parse(localStorage.getItem(wishlistId));
+
+            if (storedObj){
+                console.log('----------------------');
+                console.log(storedObj);
+                const filteredObj = storedObj.filter(obj => obj.id !== itemId);
+                console.log(filteredObj);
+                if (filteredObj.length !== storedObj.length) { // if object is removed from the array
+                    localStorage.setItem(wishlistId, JSON.stringify(filteredObj)); // update local storage
+                    console.log(JSON.stringify(filteredObj));
+                    console.log(`Object with ID ${itemId} removed successfully.`);
+                } else {
+                    console.log(`Object with ID ${itemId} not found.`);
+                }
+            }
+
+
+        }
+
+    };
+
+
     $('.product-box a .ti-heart , .product-box a .fa-heart').on('click', function () {
 
         $.notify({
@@ -1937,6 +2076,37 @@
                 '<a href="{3}" target="{4}" data-notify="url"></a>' +
                 '</div>'
         });
+
+        // let item = wishlisthelper.itemData();
+        // cart.addItem(item);
+        // helpers.updateView();
+
+        const id = $(this).parent('a').attr('data-product-id')
+        const name = $(this).parent('a').attr('data-product-name')
+        const price = $(this).parent('a').attr('data-product-price')
+        const image = $(this).parent('a').attr('data-product-image')
+
+        const data = {
+            id : id,
+            name : name,
+            price : price,
+            image : image,
+        }
+
+        wishlisthelper.addItem(data);
+
+        // if (item) {
+        //     let wishlist = localStorage.getItem('wishlist');
+        //     if (!wishlist) {
+        //         wishlist = [];
+        //     } else {
+        //         wishlist = JSON.parse(wishlist);
+        //     }
+        //     wishlist.push(item);
+        //     localStorage.setItem('wishlist', JSON.stringify(wishlist));
+        //     displayWishlist();
+        // }
+
     });
 
 
@@ -1966,13 +2136,17 @@ body_event.on("click", ".dark-btn", function () {
 /*=====================
  22. Menu js
  ==========================*/
-function openNav() {
-    document.getElementById("mySidenav").classList.add('open-side');
-}
 
-function closeNav() {
+$('.openNav').on('click',function () {
+    document.getElementById("mySidenav").classList.add('open-side');
+})
+
+
+$('.closeNav').on('click',function () {
     document.getElementById("mySidenav").classList.remove('open-side');
-}
+})
+
+
 $(function () {
     $('#main-menu').smartmenus({
         subMenusSubOffsetX: 1,
@@ -2061,6 +2235,7 @@ $('.size-box ul li').on('click', function (e) {
 });
 
 $('#cartEffect').on('click', function (e) {
+
     if ($("#selectSize .size-box ul").hasClass('selected')) {
         $('#cartEffect').text("Added to bag ");
         $('.added-notification').addClass("show");
@@ -2111,11 +2286,9 @@ var localAdapter = {
         console.log(items);
         let obj = JSON.parse(items.replace(/\[|\]/g, ''));
         console.log(obj);
-
        // localStorage.removeItem(itemId);
 
     }
-
 
 };
 
@@ -2193,27 +2366,30 @@ var helpers = {
 
         items.forEach(function myFunction(product, index) {
             countItem = countItem + product.count;
-            subtotalTest = subtotalTest + parseFloat(product.total);
-            // product = `<li>
-            //     <div class="media">
-            //         <a href="#"><img class="me-3"
-            //                          src="${ product.picture }"
-            //                          alt="Generic placeholder image"></a>
-            //         <div class="media-body">
-            //             <a href="#">
-            //                 <h4>${ productName }</h4>
-            //             </a>
-            //             <h4><span class="item-count-${ product.id }">${ product.count }</span> x <span class="item-price-${ product.id }"> ${ product.price }$</span></h4>
-            //         </div>
-            //     </div>
-            //     <div class="close-circle">
-            //         <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
-            //     </div>
-            // </li>`
+            subtotalTest = Math.round(subtotalTest + parseFloat(product.total));
+            //We are in checkout page
+            if($('.product-list-checkout').length){
+                console.log(product);
 
+                let product_list_item = `<li class="d-md-flex justify-content-between">
+                    <div class="d-md-flex gap-2">
+                    <img src="${product.picture}"
+                          class="rounded shadowmb-2" width="80" height="95" alt="${product.name}">
+                          <span>${product.name}</span>
+                    </div>
+                    <span class="text-end">$ ${product.total}</span>
+                    
+                </li>`
+                $('.product-list-checkout').append(product_list_item)
+            }
             subtotal = item.count * item.price;
             $('.shopping-cart').prepend(product);
         });
+
+        if($('.product-list-checkout').length){
+            $('.subtotal-checkout').append(subtotalTest)
+            $('.total-checkout').append(subtotalTest)
+        }
 
         console.log(subtotalTest);
 

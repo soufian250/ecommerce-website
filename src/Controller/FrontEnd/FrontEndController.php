@@ -122,5 +122,12 @@ class FrontEndController extends AbstractController
 
     }
 
+    #[Route('/wishlist/', name: 'app_wishlist')]
+    public function wishlist(Request $request): Response
+    {
+        return $this->render('front_end/wishlist/wishlist.html.twig');
+    }
+
+
 
 }

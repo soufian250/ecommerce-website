@@ -1,0 +1,601 @@
+categories_id;parent_id;categories_level;categories_name
+3;19;2;Urban Dance
+4;0;1;Mister Tee
+6;366;3;Kids
+17;427;2;Shoes
+19;0;1;Sale
+21;900;3;T-Shirts
+22;900;3;Tanktops
+24;900;3;Vests
+25;900;3;Winter Jackets
+26;900;3;Light Jackets
+27;900;3;College Jackets
+28;900;3;Pants
+29;900;3;Sweatpants
+30;900;3;Shorts
+32;900;3;Hoodies
+33;900;3;Zip Hoodies
+34;900;3;Shirts
+37;901;3;Vests
+39;901;3;College Jackets
+40;901;3;Sweatpants
+42;901;3;Jumpsuits
+43;901;3;Hoodies
+44;901;3;Zip Hoodies
+45;901;3;Shirts
+46;902;3;Belts
+49;902;3;Headwear
+50;902;3;Underwear/Socks
+51;902;3;Bags
+52;903;2;Flexfit
+53;903;2;210 Fitted
+54;903;2;Snapback
+55;903;2;110
+56;903;2;Jockey
+58;903;2;Wow Caps
+59;903;2;Yupoong Beanies
+61;903;2;Bucket Hat
+62;238;4;T-Shirts
+63;238;4;Crewnecks
+64;238;4;Hoodies
+65;238;4;Tanktops
+66;77;3;Regular
+67;4;2;Accessories
+68;901;3;Leggings
+70;901;3;Pants
+72;903;2;Mister Tee
+73;0;1;Pos-Material
+77;4;2;Caps & Beanies
+80;206;3;Men
+81;206;3;Ladies
+83;903;2;Delta
+84;903;2;Trucker
+85;244;4;T-Shirts
+86;244;4;Crewnecks
+87;244;4;Hoodies
+89;77;3;X Artists
+90;900;3;Tall Tees
+91;900;3;Long Tees
+92;900;3;Loose Tanks
+93;900;3;Longsleeves
+94;900;3;Crewnecks
+95;900;3;Windbreaker
+96;900;3;Bomber Jackets
+97;900;3;Cargo Pants & Shorts
+98;900;3;Mesh Shorts
+99;900;3;Jumpsuits & Suits
+100;902;3;Gloves & Scarves
+101;901;3;T-Shirts
+102;901;3;Cropped Tees
+103;901;3;Tops & Tanks
+104;901;3;Loose Tanks
+105;901;3;Bandeaus
+106;901;3;Sport Bras
+107;901;3;Sweater & Cardigans
+108;901;3;Dresses & Skirts
+109;901;3;Crewnecks & Longsleeves
+110;901;3;Light Jackets
+111;901;3;Bomber Jackets
+112;901;3;Winter Jackets
+113;901;3;Shorts
+116;0;1;Coming Soon
+118;238;4;Jackets
+128;72;3;X Artists
+129;72;3;Dope Stuff
+131;206;3;Accessories
+132;72;3;Regular
+133;900;3;Cardigans
+134;903;2;Accessories
+137;161;3;T-Shirts
+138;161;3;Hoodies
+139;161;3;Crewnecks
+140;908;2;Caps & Beanies
+141;161;3;Tanktops
+142;161;3;Pants & Shorts
+143;908;2;Accessories
+146;0;1;Mstrds
+147;0;1;Tubelaces
+148;146;2;Caps & Beanies
+149;146;2;Sunglasses
+150;146;2;Accessories
+151;146;2;Displays
+152;147;2;Laces
+153;147;2;Displays
+154;0;1;Wu-Wear
+155;903;2;Merchcode
+156;162;3;Tanktops
+157;162;3;T-Shirts
+158;162;3;Crewnecks
+159;162;3;Hoodies
+161;908;2;Men
+162;908;2;Ladies
+171;903;2;Dad Caps
+175;0;1;Famous
+180;427;2;Athleisure
+185;0;1;Rammstein
+186;0;1;Men
+187;0;1;Ladies
+188;0;1;Accessoires
+189;0;1;New!
+190;0;1;Sale!
+195;202;3;T-Shirts
+196;202;3;Hoodies
+198;175;2;Accessories
+199;202;3;Crewnecks & Longsleeves
+200;202;3;Tanks
+202;175;2;Men
+204;202;3;Jackets
+205;161;3;Jackets
+206;427;2;New Collection
+207;900;3;Swimwear
+208;901;3;Swimwear
+211;900;3;Plus Size
+212;901;3;Curvy
+216;902;3;Sunglasses
+217;902;3;Towels
+218;902;3;Gadgets
+221;162;3;Jackets
+222;0;1;BYB Kids
+223;238;4;Shorts
+224;4;2;Kids
+225;202;3;Sweatpants
+226;238;4;Sweatpants
+227;0;1;Flexfit Caps
+233;19;2;Pusher
+234;239;4;Dresses
+237;0;1;Southpole
+238;250;3;Regular
+239;251;3;Regular
+240;239;4;Tanktops
+241;239;4;T-Shirts
+242;239;4;Crewnecks
+243;239;4;Hoodies
+244;250;3;X Artists
+245;251;3;X Artists
+246;245;4;Tanktops
+247;245;4;T-Shirts
+248;19;2;Amk
+249;19;2;Schlappos
+250;4;2;Men
+251;4;2;Ladies
+253;902;3;Festival Stuff
+254;227;2;new collection
+255;227;2;Flexfit
+256;227;2;Snapback
+257;227;2;Dad Caps
+258;227;2;110
+259;227;2;210 Fitted
+260;227;2;Trucker
+261;227;2;BYB FF-Delta
+262;227;2;Bucket Hat
+263;227;2;Jockey
+264;227;2;Beanies
+265;227;2;ACCESSORIES
+266;902;3;Jewelry
+268;0;1;Brandit
+270;162;3;Swimsuits
+271;238;4;Swimwear
+272;0;1;Starter
+273;161;3;Swimwear
+274;237;2;New Collection
+275;237;2;Nos Collection
+276;0;1;Cayler & Sons
+277;276;2;T-Shirts
+278;276;2;Crewnecks
+279;276;2;Pants
+280;276;2;Caps
+281;276;2;Jackets
+282;276;2;Hoodies
+283;276;2;Accessoires
+284;276;2;Windbreaker
+285;276;2;Mesh Shorts
+286;276;2;Shorts
+287;276;2;Sweatpants
+291;276;2;Tanktops
+293;276;2;Longsleeves
+294;276;2;Shirts
+296;245;4;Hoodies
+297;75;2;T-Shirt
+298;75;2;Tanktops
+299;75;2;Hoodies
+300;75;2;BYB-Crewnecks
+301;75;2;BYB-Zip Hoodies
+302;75;2;BYB-Shirts
+303;75;2;BYB-Vests
+304;75;2;BYB-Windbreaker
+305;75;2;BYB-College Jacket
+306;75;2;BYB-Bomber Jackets
+307;75;2;BYB-Underwear
+308;75;2;BYB-Light Jackets
+309;75;2;Shorts
+310;75;2;BYB-Zip Cardigan
+311;75;2;Pants
+312;75;2;BYB-Mesh Shorts
+313;75;2;Longsleeve
+314;75;2;Sweatpants
+315;76;2;BYB-L-Crewnecks
+316;76;2;BYB-L-Windbreaker
+317;76;2;BYB-L-Hoodies
+318;76;2;BYB-L-Tops&Tanks
+319;76;2;BYB-L-T-Shirt
+320;76;2;BYB-L-Longsleeve
+321;76;2;BYB-L-Pants
+322;76;2;BYB-L-Dress
+323;76;2;Leggings
+324;76;2;BYB-L-Light Jackets
+325;76;2;BYB-L-Zip Hoodies
+326;76;2;BYB-L-Shorts
+327;76;2;BYB-L-Cropped Tees
+328;76;2;BYB-L-Bomber Jackets
+329;76;2;BYB-L-College Jackets
+330;76;2;BYB-L-Shirts
+331;76;2;BYB-L-Jumpsuit
+332;76;2;BYB-L-Bandeau
+334;75;2;BYB-Bademode
+335;0;1;Masks
+336;902;3;Masks
+338;0;1;Build Your Brandit
+339;268;2;New Arrivals
+340;268;2;Bags
+341;268;2;Shirts
+342;268;2;Jackets
+343;268;2;Pants
+344;268;2;Shorts
+345;268;2;Accessories
+346;268;2;Pullover
+347;268;2;T-Shirts
+348;268;2;Underwear
+350;272;2;New Collection
+351;903;2;Kids
+353;227;2;Kids
+354;272;2;Nos Collection
+356;366;3;T-Shirts
+357;366;3;Hoodies
+358;366;3;Bomber-Jackets
+359;366;3;Tops & Tanks
+360;366;3;Light-Jackets
+361;366;3;Winter-Jackets
+362;366;3;Shirts
+363;366;3;Zip-Hoodies
+364;0;1;Sustainable
+365;427;2;Multipacks
+366;19;2;Urban Classics
+367;366;3;Crewnecks
+368;366;3;Leggings
+369;366;3;College-Jackets
+370;366;3;Shoes
+371;366;3;Jumpsuits
+372;366;3;Dress
+373;366;3;Shorts
+374;366;3;Pants
+375;366;3;Sweater & Cardigans
+376;366;3;Longsleeve
+377;366;3;Bandeaus
+378;366;3;Cargo Hosen & Shorts
+379;19;2;Mistertee
+380;366;3;Accessories
+381;366;3;Vests
+382;19;2;Flexfit
+383;19;2;Mstrds
+384;19;2;Merchcode
+385;19;2;Southpole
+386;366;3;Long Tees
+387;19;2;Famous
+388;366;3;Sweatpants
+389;366;3;Sport Bras
+390;366;3;Swimmwear
+391;366;3;Cropped Tees
+392;379;3;Caps
+393;379;3;Clothing
+394;379;3;Accessoires
+395;19;2;Tubelaces
+397;365;3;Apparel
+398;365;3;Underwear
+399;365;3;Belts
+400;365;3;Masks
+401;365;3;Socks
+402;903;2;Ff-Nachhaltig
+403;0;1;BYB-Nachhaltig
+404;365;3;Accessories
+405;0;1;BYB-Multipacks
+407;227;2;BYB-FF-Nachhaltig
+408;276;2;Shoes
+409;0;1;Face Masks
+410;0;1;New
+411;0;1;BYB-Basic
+412;224;3;T-Shirt
+413;224;3;Hoodies
+414;224;3;Longsleeve
+416;272;2;Summer-Season
+417;272;2;Winter-Season
+427;0;1;Urban Classics
+900;427;2;Men
+901;427;2;Ladies
+902;427;2;Accessories
+903;0;1;Flexfit Caps
+908;0;1;Merchcode
+2000;0;1;Build Your Brandit
+2001;0;1;MSTRDS
+2002;0;1;Tubelaces
+2003;0;1;New Collection
+2004;0;1;Build Your Brand Basic
+2005;0;1;Multipacks
+2006;0;1;Sustainable Collection
+2007;0;1;Men
+2008;0;1;Ladies
+2009;0;1;Accessoires
+2010;0;1;Flexfit Caps
+2011;0;1;Kids
+2012;0;1;Face Masks
+2013;0;1;Flexfit
+2014;0;1;Snapback
+2015;0;1;110
+2016;0;1;210 Fitted
+2017;0;1;Trucker
+2018;0;1;Delta
+2019;0;1;Bucket Hat
+2020;0;1;Jockey
+2021;0;1;Yupoong Beanies
+2022;0;1;Mister Tee
+2024;0;1;Accessories
+2025;0;1;Merchcode
+2026;0;1;Dad Caps
+2027;0;1;Kids
+2028;0;1;Sustainable
+2029;2002;2;Displays
+2030;2002;2;Laces
+2031;2001;2;Accessoires
+2032;2001;2;Caps & Beanies
+2033;2001;2;Displays
+2034;2001;2;Sunglasses
+2035;2007;2;T-Shirts
+2036;2007;2;Hoodies
+2037;2007;2;Tanktops
+2038;2007;2;Windbreaker
+2039;2007;2;Zip Hoodies
+2040;2007;2;Bomber Jackets
+2041;2007;2;Vests
+2042;2007;2;Crewnecks
+2043;2007;2;College Jackets
+2044;2007;2;Shirts
+2045;2007;2;Mesh Shorts
+2046;2007;2;Zip Cardigan
+2047;2007;2;Underwear
+2048;2007;2;Sweatpants
+2049;2007;2;Shorts
+2050;2007;2;Longsleeve
+2051;2007;2;Light Jackets
+2052;2007;2;Pants
+2053;2007;2;Swimmwear
+2054;2008;2;Bandeaus
+2055;2008;2;Tops&Tanks
+2056;2008;2;Shorts
+2057;2008;2;Pants
+2058;2008;2;College Jackets
+2059;2008;2;Windbreaker
+2060;2008;2;Light Jackets
+2061;2008;2;T-Shirts
+2062;2008;2;Cropped Tees
+2063;2008;2;Dresses
+2064;2008;2;Polo Shirts
+2065;2008;2;Hoodies
+2066;2008;2;Zip Hoodies
+2067;2008;2;Longsleeves
+2068;2008;2;Bomber Jackets
+2069;2008;2;Crewnecks
+2070;2008;2;Leggings
+2071;2008;2;Jumpsuits
+2072;2010;2;110
+2073;2010;2;Delta
+2074;2010;2;Dad Caps
+2075;2010;2;Flexfit
+2076;2010;2;Beanies
+2077;2010;2;210 Fitted
+2078;2010;2;Bucket Hat
+2079;2010;2;Snapback
+2080;2010;2;Accessories
+2081;2010;2;Trucker
+2083;2010;2;Jockey
+2084;2010;2;Kids
+2085;2010;2;Sustainable
+2086;0;1;Quickshots
+2090;2086;2;Urban Classics
+2091;2090;3;Accessories
+2092;2090;3;Ladies
+2093;2090;3;Men
+2096;4;2;Upscale
+2097;2098;3;Accessories
+2098;427;2;Quickshots
+2099;2098;3;Ladies
+2100;2098;3;Men
+2101;0;1;Forvert
+2102;268;2;Shoes
+2103;901;3;Body
+2104;244;4;Jackets
+2105;427;2;Kids
+2106;206;3;Kids
+2107;0;1;New Collection
+2108;2107;2;Urban Classics
+2109;2108;3;Men
+2110;2108;3;Ladies
+2111;2108;3;Accessories
+2114;2107;2;Starter
+2115;2108;3;Kids
+2116;350;3;Accessoires
+2117;350;3;Ladies
+2118;350;3;Men
+2119;2114;3;Men
+2131;0;1;New Collection
+2133;268;2;Kids
+2134;0;1;Blank goods HFT
+2135;2134;2;MTXXX
+2136;2134;2;Snipes
+2137;2134;2;Gildan
+2138;2134;2;Karl Kani
+2139;2134;2;MCXXX
+2140;2134;2;CSR (Cayler)
+2141;0;1;Def
+2142;0;1;DNGRS
+2143;0;1;Ecko Unltd.
+2144;0;1;Just Rhyse
+2145;0;1;Thug Life
+2146;0;1;Days Beyond
+2147;2107;2;Flexfit
+2149;2148;3;Woman
+2150;2148;3;Men
+2151;2148;3;Accessoires
+2152;0;1;Kids
+2153;0;1;Rocawear
+2154;238;4;Shirts
+2156;2107;2;Mister Tee
+2157;2156;3;Accessoires
+2158;2147;3;Caps
+2159;237;2;Summer-Season
+2160;237;2;Winter-Season
+2161;2141;2;Men
+2162;2141;2;Ladies
+2163;2161;3;Hoodies
+2164;2161;3;T-shirts
+2165;2161;3;Sweatpants
+2166;2161;3;Pants
+2167;2161;3;Tank Tops
+2168;2162;3;T-Shirts
+2169;2161;3;Shorts
+2170;2161;3;Jackets
+2171;2162;3;Pants
+2172;2141;2;Accessoires
+2173;2161;3;Vests
+2174;2162;3;Crewnecks & Longsleeves
+2175;2162;3;Dresses
+2176;2162;3;Sweatpants
+2177;2162;3;Leggings
+2178;2162;3;Hoodies
+2179;2142;2;Ladies
+2180;2142;2;Men
+2181;2179;3;Hoodies
+2182;2179;3;Dresses
+2183;2180;3;Sweat Suits
+2184;2180;3;Jackets
+2185;2180;3;Sweatpants
+2186;2179;3;Sweatpants
+2187;2180;3;Zip Hoodies
+2188;2142;2;Accessoires
+2189;2179;3;T-shirts
+2190;2180;3;Shorts
+2191;2180;3;Hoodies
+2192;2144;2;Men
+2193;2192;3;Pants
+2194;2192;3;Sweatshirts
+2195;2144;2;Ladies
+2196;2195;3;Sweatpants
+2197;2195;3;Leggings
+2198;2192;3;Hoodies
+2199;2192;3;Shorts
+2200;2192;3;Sweatpants
+2201;2195;3;T-shirts
+2202;2195;3;Dresses & Cardigans
+2206;2003;2;Build your Brand
+2207;2206;3;Ladies
+2208;2206;3;Men
+2209;2003;2;Build your Brand Basic
+2210;2209;3;Men
+2211;2209;3;Ladies
+2212;2206;3;Accessoires
+2213;2161;3;Tracksuits
+2214;2145;2;Ladies
+2215;2145;2;Men
+2216;2145;2;Accessoires
+2217;2299;2;T-Shirts
+2218;2299;2;Hoodies
+2219;2146;2;Hoodies
+2220;2146;2;T-Shirts
+2221;2101;2;Hipbags
+2222;2101;2;Backpacks
+2223;2143;2;Shorts
+2224;2143;2;Sweatpants
+2225;2143;2;T-shirts
+2226;2143;2;Sweatshirts
+2227;2143;2;Crewnecks
+2228;2143;2;Pants
+2229;2143;2;Hoodies
+2230;2143;2;Sweatsuits
+2231;2214;3;Sweatpants
+2232;2214;3;Dresses
+2233;2214;3;Leggings
+2234;2214;3;T-shirts
+2235;2215;3;T-shirts
+2236;2215;3;Hoodies
+2237;2215;3;Shorts
+2238;2215;3;Crewnecks
+2239;2215;3;Sweatpants
+2240;2153;2;T-shirts
+2241;2153;2;Crewnecks
+2242;2153;2;Sweatpants
+2243;2153;2;Tank Tops
+2244;2153;2;Sweatsuit
+2245;2153;2;Pants
+2246;2153;2;Hoodies
+2247;2153;2;ZIP Hoodies
+2248;154;2;Accessoires
+2249;154;2;T-shirts
+2250;154;2;Hoodies
+2251;154;2;Crewnecks
+2252;2253;3;Sweatpants
+2253;364;2;Ladies
+2254;364;2;Accessoires
+2255;364;2;Kids
+2256;2253;3;Dresses
+2257;2253;3;T-shirts
+2258;364;2;Men
+2259;2258;3;Hoodies
+2260;2258;3;T-shirts
+2261;2253;3;Swimwear
+2262;2253;3;Hoodies
+2263;2253;3;Hotpants & Tops
+2264;2253;3;ZIP Hoodies
+2265;364;2;Multipacks
+2266;2265;3;Socks
+2267;2265;3;Apparel
+2268;364;2;Flexfit
+2269;2258;3;Jackets
+2270;2258;3;Crewnecks
+2271;2258;3;ZIP Hoodies
+2272;2265;3;Boxershorts
+2273;2258;3;Sweatpants
+2274;2258;3;Shorts
+2275;2253;3;Jackets & Cardigans
+2276;2258;3;Longsleeves
+2277;2253;3;Bodys
+2278;2253;3;Longsleeves & Crewnecks
+2279;335;2;Urban Classics
+2280;2279;3;Masks
+2281;2282;3;Multipacks
+2282;335;2;Mister Tee
+2283;2282;3;Masks
+2284;2279;3;Multipacks
+2285;335;2;Flexfit
+2286;67;3;Headwear
+2287;67;3;Belts
+2288;67;3;Jewelry
+2289;67;3;Socks
+2290;67;3;Gadgets
+2291;67;3;Gloves/Scarves
+2292;2162;3;Jackets
+2293;2195;3;ZIP Hoodies
+2294;2195;3;Hoodies
+2295;2146;2;Caps
+2296;2299;2;Caps
+2297;2142;2;Kids
+2298;2180;3;T-shirts
+2299;0;1;Miss Tee
+2300;2141;2;Kids
+2301;2162;3;Windbreaker
+2302;2162;3;Tanktops
+2303;2161;3;Longsleeves & Crewnecks
+2304;2162;3;Bodys
+2305;2143;2;Jackets
+2306;2299;2;Tank Tops
+2307;2146;2;Tank Tops
+2308;0;1;Schlappos
+2309;0;1;AMK
+2310;0;1;Top seller

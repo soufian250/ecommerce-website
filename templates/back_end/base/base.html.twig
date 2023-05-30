@@ -26,28 +26,27 @@
 
 </head>
 {% block body %}
+    <body>
+        {% block page_wrapper %}
+            <div class="page-wrapper">
+                {% include 'back_end/base/_header.html.twig' %}
 
-        <body>
-            {% block page_wrapper %}
-                <div class="page-wrapper">
-                        {% include 'back_end/base/_header.html.twig' %}
+                {% block main %}
+                    <div class="page-body-wrapper">
 
-                        {% block main %}
-                                <div class="page-body-wrapper">
+                        {% include '/back_end/base/_sidebare.html.twig' %}
 
-                                        {% include '/back_end/base/_sidebare.html.twig' %}
-
-                                        {% block page_body %}
-                                        {% endblock page_body %}
-
-
-                                        {% include 'back_end/base/_footer.html.twig' %}
+                        {% block page_body %}
+                        {% endblock page_body %}
 
 
-                                </div>
-                        {% endblock main %}
+                        {% include 'back_end/base/_footer.html.twig' %}
 
-                </div>
+
+                    </div>
+                {% endblock main %}
+
+            </div>
         {% endblock page_wrapper %}
 
         {% block javascripts %}
@@ -62,5 +61,5 @@
 
 
         </body>
-        {% endblock body %}
+{% endblock body %}
 </html>

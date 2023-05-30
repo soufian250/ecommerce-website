@@ -35,8 +35,8 @@ import './styles/css/style.css';
 import './js/cart';
 import './js/menu.js'
 import './js/bootstrap.bundle.min.js'
-import './js/icons/feather-icon/feather.min.js'
-import './js/icons/feather-icon/feather-icon.js'
+// import './js/icons/feather-icon/feather.min.js'
+// import './js/icons/feather-icon/feather-icon.js'
 import './js/slick.js'
 import './js/script.js'
 import './js/sidebar-menu.js'
@@ -51,8 +51,11 @@ import './js/chart/sparkline/sparkline.js'
 import './js/chat-menu.js'
 import './js/height-equal.js'
 import './js/bootstrap-notify.min.js'
+
 // import './js/editor/ckeditor/ckeditor.js'
 // import './js/editor/ckeditor/ckeditor.custom.js'
+import './js/slick-animation.min.js';
+import './js/custom-slick-animated.js';
 
 
 import './js/price-range.js'

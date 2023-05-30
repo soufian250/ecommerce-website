@@ -13,8 +13,9 @@
 
         <body class="theme-color-1">
 
-           <!-- loader start -->
-           <div class="loader_skeleton">
+          {% block loader_skeleton %}
+                <!-- loader start -->
+                <div class="loader_skeleton">
                 <header>
                         <div class="top-header d-none d-sm-block">
                                 <div class="container">
@@ -199,7 +200,8 @@
                         </div>
                 </section>
         </div>
-           <!-- loader end -->
+                <!-- loader end -->
+           {% endblock loader_skeleton %}
 
            {% block header %}
                    {% include 'front_end/base/_header.html.twig' %}
@@ -222,6 +224,7 @@
            {% block js %}
                    {% include 'front_end/base/_js.html.twig' %}
            {% endblock %}
+
 
            <script src="{{ asset('assets/js/feather.min.js') }}"></script>
            <script src="{{ asset('assets/js/feather-icon.js') }}"></script>
